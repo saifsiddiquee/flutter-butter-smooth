@@ -1,0 +1,26 @@
+# Performance-focused lint set for Flutter projects.
+# Merge into your project's analysis_options.yaml, then run:
+#   flutter analyze
+#   dart fix --apply      # auto-applies const and similar fixes
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # const widgets short-circuit rebuilds
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_literals_to_create_immutables
+    - prefer_const_declarations
+    - prefer_final_fields
+    # Lighter widgets than Container for single-purpose use
+    - avoid_unnecessary_containers
+    - sized_box_for_whitespace
+    - use_colored_box
+    - use_decorated_box
+    # Leak prevention
+    - cancel_subscriptions
+    - close_sinks
+    - unawaited_futures
+    # Avoid BuildContext misuse across async gaps
+    - use_build_context_synchronously

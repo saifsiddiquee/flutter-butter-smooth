@@ -1,0 +1,12 @@
+{
+  "name": "flutter-performance-marketplace",
+  "owner": { "name": "Saif" },
+  "plugins": [
+    {
+      "name": "flutter-performance",
+      "source": "./",
+      "description": "Audit and optimize Flutter apps for smooth frame rates, low memory, small size and fast startup.",
+      "version": "1.0.0"
+    }
+  ]
+}

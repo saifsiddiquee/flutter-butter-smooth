@@ -1,0 +1,10 @@
+{
+  "name": "flutter-performance",
+  "description": "Audit and optimize Flutter apps for smooth frame rates, low memory, small size and fast startup, with a static scanner and profiling guidance.",
+  "version": "1.0.0",
+  "author": { "name": "Saif" },
+  "license": "MIT",
+  "homepage": "https://github.com/saifsiddiquee/flutter-butter-smooth",
+  "repository": "https://github.com/saifsiddiquee/flutter-butter-smooth",
+  "keywords": ["flutter", "dart", "performance", "profiling", "jank", "impeller"]
+}

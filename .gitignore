@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+*.pyc
+perf_audit.md
+CLAUDE.md
